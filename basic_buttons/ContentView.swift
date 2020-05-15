@@ -51,7 +51,10 @@ struct ContentView: View {
              
             
                 Text("Choose wisly, you must")
+                    .font(.title)
+                    .fontWeight(.bold)
                     .padding(50)
+                    
                 
                  Button(action: {
                     
